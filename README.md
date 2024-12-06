@@ -1,5 +1,6 @@
 # telegram-chatgpt-bot
-
+Telegram bot that answers like ChatGPT
+##
 ### !! You need to add 2 enviroment variables !!
 BOT_TOKEN = your telegram bot token
 
