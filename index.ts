@@ -111,7 +111,7 @@ async function start() {
             const userInfo = usersInfo.get(chatId);
             if (!userInfo) return;
             userInfo.lastCompletion = "";
-            await bot.sendMessage(chatId, "ChatGPT memory cleared!");
+            return await bot.sendMessage(chatId, "ChatGPT memory cleared!");
         } else {
             const response = await openai.chat.completions.create({
                 model: usersInfo.get(chatId)?.currentModel || "gpt-3.5-turbo",
