@@ -1,6 +1,5 @@
 # telegram-chatgpt-bot
 
-##
 ### !! You need to add 2 enviroment variables !!
 BOT_TOKEN = your telegram bot token
 
